@@ -18,18 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="yzk-Qt-wmd" customClass="PlayingCardView" customModule="PlayingCard" customModuleProvider="target">
-                                <rect key="frame" x="16" y="44" width="343" height="734"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="yzk-Qt-wmd" customClass="PlayingCardView" customModule="PlayingCard" customModuleProvider="target">
+                                <rect key="frame" x="16" y="60" width="343" height="702"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.71793274640000004" blue="0.74900887969999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yzk-Qt-wmd" secondAttribute="bottom" id="J0Y-d8-sLe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yzk-Qt-wmd" secondAttribute="bottom" constant="16" id="J0Y-d8-sLe"/>
                             <constraint firstItem="yzk-Qt-wmd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Nsn-BB-Kb9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yzk-Qt-wmd" secondAttribute="trailing" constant="16" id="SBE-k3-oXD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yzk-Qt-wmd" secondAttribute="trailing" constant="16" id="VB8-p3-FC0"/>
-                            <constraint firstItem="yzk-Qt-wmd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="v1o-aj-amC"/>
+                            <constraint firstItem="yzk-Qt-wmd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="v1o-aj-amC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
